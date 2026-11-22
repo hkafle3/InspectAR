@@ -1,0 +1,28 @@
+plugins {
+    id("com.android.application")
+}
+
+android {
+    namespace = "com.inspectlog.glasses"
+    compileSdk = 37
+
+    defaultConfig {
+        applicationId = "com.inspectlog.glasses"
+        minSdk = 28      // glasses run Android 9
+        targetSdk = 28
+        versionCode = 1
+        versionName = "1.0"
+    }
+
+    buildTypes {
+        release { isMinifyEnabled = false }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+}

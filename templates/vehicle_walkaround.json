@@ -1,0 +1,12 @@
+{
+  "id": "vehicle_walkaround",
+  "name": "Vehicle walkaround",
+  "steps": [
+    {"id": "front", "area": "Exterior", "label": "Front bumper and lights", "instruction": "Check for dents and broken lights", "short": "Front"},
+    {"id": "driver_side", "area": "Exterior", "label": "Driver side", "instruction": "Check panels, mirror, and tire", "short": "Driver side"},
+    {"id": "rear", "area": "Exterior", "label": "Rear bumper and lights", "instruction": "Check for dents and broken lights", "short": "Rear"},
+    {"id": "passenger_side", "area": "Exterior", "label": "Passenger side", "instruction": "Check panels, mirror, and tire", "short": "Passenger side"},
+    {"id": "odometer", "area": "Cabin", "label": "Odometer", "instruction": "Tap to read the odometer", "short": "Odometer", "read": true},
+    {"id": "fuel", "area": "Cabin", "label": "Fuel gauge", "instruction": "Tap to read the fuel level", "short": "Fuel gauge", "read": true}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "safety_walk",
+  "name": "Workplace safety walk",
+  "steps": [
+    {"id": "exits", "area": "Floor", "label": "Emergency exits", "instruction": "Exits clear and signs lit", "short": "Exits"},
+    {"id": "extinguisher", "area": "Floor", "label": "Fire extinguisher", "instruction": "Tap to read the inspection tag", "short": "Extinguisher", "read": true},
+    {"id": "walkways", "area": "Floor", "label": "Walkways", "instruction": "No trip hazards or spills", "short": "Walkways"},
+    {"id": "first_aid", "area": "Break room", "label": "First aid kit", "instruction": "Kit present and stocked", "short": "First aid kit"},
+    {"id": "electrical", "area": "Utility room", "label": "Electrical panel", "instruction": "Panel closed, 3 ft clearance", "short": "Electrical panel"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "electrical_panel",
+  "name": "Electrician · Panel inspection",
+  "steps": [
+    {"id": "panel_cover", "area": "Panel", "label": "Panel cover", "instruction": "Cover on, no gaps or missing knockouts", "short": "Panel cover"},
+    {"id": "scorch", "area": "Panel", "label": "Breakers and bus", "instruction": "Look for scorch marks, melting or rust", "short": "Breakers"},
+    {"id": "labels", "area": "Panel", "label": "Circuit labels", "instruction": "Tap to read the breaker labels", "short": "Labels", "read": true},
+    {"id": "main_rating", "area": "Panel", "label": "Main breaker", "instruction": "Tap to read the main breaker rating", "short": "Main breaker", "read": true},
+    {"id": "gfci", "area": "Kitchen and bath", "label": "GFCI outlets", "instruction": "GFCI present near water, no damage", "short": "GFCI outlets"}
+  ]
+}

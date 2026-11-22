@@ -1,0 +1,11 @@
+{
+  "id": "property_moveout",
+  "name": "PropertyLens · Move-out inspection",
+  "steps": [
+    {"id": "entry_door", "area": "Entry", "label": "Entry door", "instruction": "Check door, lock, and frame", "short": "Entry door"},
+    {"id": "ceiling", "area": "Living room", "label": "Ceiling", "instruction": "Check for water damage or cracks", "short": "Ceiling"},
+    {"id": "walls_floor", "area": "Living room", "label": "Walls and floor", "instruction": "Check for holes, stains, or damage", "short": "Walls & floor"},
+    {"id": "kitchen_sink", "area": "Kitchen", "label": "Kitchen sink", "instruction": "Check for leaks under the basin", "short": "Kitchen sink"},
+    {"id": "thermostat", "area": "Hallway", "label": "Thermostat", "instruction": "Tap to read the thermostat", "short": "Thermostat", "read": true}
+  ]
+}

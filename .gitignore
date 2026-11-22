@@ -1,0 +1,59 @@
+# ---- Vendor SDKs and builds: never commit ----
+*.framework/
+*.xcframework/
+*.aar
+*.apk
+*.aab
+Pods/
+
+# ---- Internal planning notes (kept locally) ----
+CLAUDE.md
+HACKATHON.md
+DEMO_PLAN.md
+SUBMISSION.md
+
+# ---- Secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv
+.venv/
+.venv.nosync/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# ---- Runtime data ----
+data/
+uploads/
+*.pdf
+
+# ---- Android / Gradle ----
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+captures/
+.cxx/
+.externalNativeBuild/
+
+# ---- Xcode / iOS ----
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.ipa
+*.dSYM*
+
+# ---- OS / editors ----
+.DS_Store
+.vscode/
+.kotlin/
+video/
+
+# Third-party test photos (license needs attribution), kept locally
+samples/electrician/
